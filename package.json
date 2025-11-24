@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -12,8 +12,10 @@
   "dependencies": {
     "@imgly/background-removal": "^1.7.0",
     "@tailwindcss/vite": "^4.1.12",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-toastify": "^11.0.5",
     "tailwindcss": "^4.1.12"
   },
   "devDependencies": {
